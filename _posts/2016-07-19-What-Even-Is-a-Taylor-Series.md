@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What Even is a Taylor Series?  
-date:   2016-07-19 12:07:51
+date:   2016-06-19 12:07:51
 tags: math
 ---
 
