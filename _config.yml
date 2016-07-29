@@ -15,5 +15,6 @@ disqus_shortname:
 
 # Build settings
 kramdown:
-  input: GFM
+input: GFM
 permalink: pretty
+math_engine: mathjax
