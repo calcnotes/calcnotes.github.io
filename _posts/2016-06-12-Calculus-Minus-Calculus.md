@@ -12,3 +12,5 @@ A cat falls from a building. The table below shows its height.
 | meters  | 25 | 24 | 21 | 16 | 9 | 0 |
 
 How might we go about determining a formula that describes the cat's descent?
+
+$$ Df = e^D f $$
