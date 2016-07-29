@@ -17,4 +17,3 @@ disqus_shortname:
 kramdown:
 input: GFM
 permalink: pretty
-math_engine: mathjax
