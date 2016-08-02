@@ -5,7 +5,7 @@ date:   2015-05-02 09:00:00
 tags: math
 ---
 
-The Taylor series definition of $$e^x$$ allows the function to be defined for domains beyond $$\Bbb R$$. For example, extending the domain of the exponential function to $$\Bbb C$$ results in Euler's formula.
+With the Taylor series definition for $$e^x$$, we can derive the following identity:
 
 $$
 \begin{align*}
@@ -13,7 +13,27 @@ $$
 \end{align*}
 $$
 
-In this article, we explore applying $$\exp$$ to the derivative.
+It general
+
+$$e^{\frac{d}{dx}}f(x) = f(x+1)$$
+
+## Deriving the Identity
+
+From the Taylor series:
+$$
+\begin{align*}
+e^{\frac{d}{dx}}f(x) &= 1f(x) + \frac{d}{dx}f(x) + \frac{1}{2}\frac{d^2}{dx^2}f(x) +  \frac{1}{3!}\frac{d^3}{dx^3}f(x) + \ldots
+&=f(x+1)
+$$
+
+From the limit definition:
+$$
+\begin{align*}
+Df &= \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}\\
+&= \lim_{h \to 0} \frac{L^h - I}{h} f\\
+&= \log L f
+\end{align*}
+$$
 
 ## A Summation Operator
 
