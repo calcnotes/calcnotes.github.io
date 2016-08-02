@@ -20,13 +20,16 @@ $$e^{\frac{d}{dx}}f(x) = f(x+1)$$
 ## Deriving the Identity
 
 From the Taylor series:
+
 $$
 \begin{align*}
-e^{\frac{d}{dx}}f(x) &= 1f(x) + \frac{d}{dx}f(x) + \frac{1}{2}\frac{d^2}{dx^2}f(x) +  \frac{1}{3!}\frac{d^3}{dx^3}f(x) + \ldots
+e^{\frac{d}{dx}}f(x) &= 1f(x) + \frac{d}{dx}f(x) + \frac{1}{2}\frac{d^2}{dx^2}f(x) +  \frac{1}{3!}\frac{d^3}{dx^3}f(x) + \ldots\\
 &=f(x+1)
+\end{align*}
 $$
 
 From the limit definition:
+
 $$
 \begin{align*}
 Df &= \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}\\
